@@ -17,8 +17,8 @@ final _schema = S.object(
   required: ["topics", "action"],
 );
 
-final trailHead = CatalogItem(
-  name: "TrailHead",
+final trailhead = CatalogItem(
+  name: "Trailhead",
   dataSchema: _schema,
   exampleData: [
     () => '''

@@ -22,7 +22,7 @@ final _schema = S.object(
       description: 'An icon to display on the left of the chip.',
       enumValues: TravelIcon.values.map((e) => e.name).toList(),
     ),
-    'selectedOption': A2uiSchemas.stringArrayReference(
+    'selectedOptions': A2uiSchemas.stringArrayReference(
       description:
           'The names of the options that should be selected '
           'initially. These options must exist in the "options" list.',
